@@ -1,0 +1,32 @@
+{
+  "author": "Irena Borisa",
+  "dependencies": {
+    "form-data": "2.3.3",
+    "is-path-inside": "3.0.3",
+    "is-stream": "2.0.1",
+    "is-typedarray": "1.0.0",
+    "is-unicode-supported": "0.1.0",
+    "jsbn": "0.1.1",
+    "json-schema": "0.4.0",
+    "isexe": "2.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "lodash.once": "4.1.1",
+    "lru-cache": "6.0.0",
+    "merge-stream": "2.0.0",
+    "mime-types": "2.1.35",
+    "mime-db": "1.52.0",
+    "mimic-fn": "2.1.0",
+    "typescript": "~4.5.4"
+  },
+  "description": "",
+  "devDependencies": {
+    "cypress": "10.10.0"
+  },
+  "main": "index.js",
+  "name": "automation-group2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

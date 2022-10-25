@@ -1,14 +1,15 @@
-
+export {}
 describe('First homework', () => {
 
   beforeEach('Open main screen', () => {
     cy.visit('https://intranet.ctco.lv/')
   })
+
   it('Intranet Log in happy path tc', () => {
     cy.get('#username').type(Cypress.env('userName'))
     cy.get('#password').type(Cypress.env('password'))
     cy.get('.btn-submit').click()
-    cy.get('#logo_img').should('be.visible')
+    cy.get('#logo_img')
   })
 
   it('Intranet Log in failed tc', () => {

@@ -23,10 +23,11 @@
   "devDependencies": {
     "cypress": "10.10.0"
   },
-  "main": "index.js",
+  "main": "index.ts",
   "name": "automation-group2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open"
   },
   "version": "1.0.0"
 }

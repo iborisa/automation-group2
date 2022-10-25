@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+/// <reference types="cypress" />
+///<reference path="../support/index.d.ts" />
+export {}
+
+Cypress.Commands.add('login',(userName:string, password:string)=>{
+  cy.get('[id=username]').type(userName);
+  cy.get('[id=password]').type(password)
+  cy.get('.btn-submit').click()
+  cy.get('[id=logo_img]')
+})
